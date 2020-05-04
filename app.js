@@ -16,21 +16,28 @@ var animate1 = anime.timeline({loop: false})
 });
 
 
-
-//anime.timeline({loop: false})
-//.add({
-//    targets: '#logo',
-//    translateY: [
-//        {value: 1000, duration: 1800}
-//    ],
-//}).add({
-//    rotate:{
-//        value: '1turn',
-//        easing: 'linear',
-//        duration: 10000,
-//    }
-//})
-
+GS.onclick = function(){
+    var group1 = anime.timeline({loop: false})
+    .add({
+        targets: '.group',
+        opacity: 0,
+        scale: 0,
+    }).add({
+        targets: '.group',
+        opacity: 1,
+    }).add({
+        targets: '.group',
+        duration: 2000,
+        scale: 1,
+        rotate: '1turn',
+    }).add({
+        targets: '.group',  
+        scale: 0,
+        delay: 3000,
+        duration: 3000,
+        rotate: '2turn'
+    });
+};
 
 
 

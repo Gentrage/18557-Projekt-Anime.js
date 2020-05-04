@@ -32,23 +32,121 @@
         left: 25%;
     }
 
-    .ml12 {
+
+/* -----------------------------------------------------  */
+
+    .aboutTxt {
         position: absolute;
-        left: 60%;
-        top: 16%;
+        left: 51.5%;
+        top: 25%;
         font-weight: 200;
-        font-size: 3em;
+        font-size: 2em;
         text-transform: uppercase;
         letter-spacing: 0.3em;
         font-family: 'Montserrat', sans-serif;
-        color: #FFF;
+        color: #e3203e;
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
     }
     
-    .ml12 .letter {
+    .aboutTxt .letter {
         display: inline-block;
         line-height: 1em;
+    }
+
+/* -----------------------------------------------------  */
+
+    .answeringTxt {
+        position: absolute;
+        left: 49.5%;
+        top: 10%;
+        font-weight: 200;
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+        font-family: 'Montserrat', sans-serif;
+        color: #e3203e;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    }
+    
+    .answeringTxt .letter {
+        display: inline-block;
+        line-height: 1em;
+    }
+
+/* -----------------------------------------------------  */
+
+.documentsTxt {
+    position: absolute;
+    left: 52.5%;
+    top: 10%;
+    font-weight: 200;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-family: 'Montserrat', sans-serif;
+    color: #e3203e;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.documentsTxt .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+/* -----------------------------------------------------  */
+
+.traitsTxt {
+    position: absolute;
+    text-align: center;
+    left: 49%;
+    top: 15%;
+    width: 800px;
+    font-weight: 200;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-family: 'Montserrat', sans-serif;
+    color: #e3203e;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.traitsTxt .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+/* -----------------------------------------------------  */
+
+.behaviourTxt {
+    position: absolute;
+    left: 50.5%;
+    top: 25%;
+    font-weight: 200;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-family: 'Montserrat', sans-serif;
+    color: #e3203e;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.behaviourTxt .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+/* -----------------------------------------------------  */
+
+
+
+    .linia{
+        margin-top: 10px;
+        border: 1px solid #e3203e;
     }
 
     .main{
@@ -86,18 +184,60 @@
         left: 50%;
     }
 
+    .txt2{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+    }
+
+    .txt3{
+        position: absolute;
+        top: 13%;
+        left: 50%;
+    }
+
+/* -----------------------------------------------------  */
+
     .about{
         position: absolute;
         width: 35%;
         top: 45%;
         left: 52%;
         text-align: justify;
-        font-size: 1.5em;
+        font-size: 1.1em;
         font-family: 'Montserrat', sans-serif;
         color: #FFF;
         font-weight: normal;
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
+
+    .about2{
+        position: absolute;
+        width: 35%;
+        top: 38%;
+        left: 52%;
+        text-align: justify;
+        font-size: 1.1em;
+        font-family: 'Montserrat', sans-serif;
+        color: #FFF;
+        font-weight: normal;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+    .about3{
+        position: absolute;
+        width: 35%;
+        top: 20%;
+        left: 52%;
+        text-align: justify;
+        font-size: 0.8em;
+        font-family: 'Montserrat', sans-serif;
+        color: #FFF;
+        font-weight: normal;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+/* -----------------------------------------------------  */
 
     .footer{
         width: 100%;
@@ -141,11 +281,13 @@
     .ml11 .line1 { 
         top: 0; 
         left: 0;
+        margin-top: 20px;
     }
     
     .ml11 .letter {
         display: inline-block;
         line-height: 1em;
+        margin-top: 20px;
     }
 
     .box1{
@@ -175,14 +317,28 @@
 
     .box2{
         position: absolute;
-        left: 65%;
+        left: 60%;
         height: 100%;
         width: 100%;
     } 
 
     .box3{
         position: absolute;
-        left: 75%;
+        left: 80%;
+        height: 100%;
+        width: 100%;
+    } 
+
+    .box4{
+        position: absolute;
+        left: 35%;
+        height: 100%;
+        width: 100%;
+    } 
+
+    .box5{
+        position: absolute;
+        left: 20%;
         height: 100%;
         width: 100%;
     } 
@@ -192,6 +348,7 @@
         background: #FFF;
         box-shadow: 0 0 5px #FFF, 0 0 40px #FFF, 0 0 10px #FFF;
         transition-delay: 1s;
+        cursor: pointer;
     }
     a span{
         position: absolute;
